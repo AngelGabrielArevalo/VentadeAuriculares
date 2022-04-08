@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 70px;
+    background-color: aquamarine;
+}
+
+.imgauris, .imgcarac{
+    width:40px;
+    height: 40px;
+}
+
+#header{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    background-color: #212529;  
+    color: white
+    
+}
+
+#logotipo{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#header-img{
+    width: 35px;
+    height: 35px;
+    margin: 4px 8px 4px 12px;
+}
+
+#nombrepagina{
+    font-size: 30px;
+    text-align: center;
+    margin: auto 0;
+}
+
+#nav, #nav-bar{
+    height: 100%;
+}
+
+.listanav li {
+    display: inline-block;
+    text-align: center;
+    margin: auto 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#caracteristicas{
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+}
+
+.caracdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px auto;
+}
+
+.imgcarac{
+    width: 90px;
+    height: 90px;
+    margin: auto 45px auto auto;
+}
+
+

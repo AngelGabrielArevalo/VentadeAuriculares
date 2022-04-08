@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoundWorld</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header id="header">
-        <div>
+        <div id="logotipo">
             <img src="data/auris.png" alt="Logo Auriculares" id="header-img">
             <p id="nombrepagina">Auriculares Gamers</p>
         </div>
-        <div>
+        <div id="nav">
             <nav id="nav-bar">
-                <ul>
+                <ul class="listanav">
                     <li><a href="" class="nav-link">Caracteristicas</a></li>
                     <li><a href="" class="nav-link">Como funciona</a></li>
                     <li><a href="" class="nav-link">Precios</a></li>
@@ -22,10 +23,10 @@
             </nav>
         </div>
     </header>
-    <h1>Auriculares Gamers</h1>
+    <h1 id="titulo">Auriculares Gamers</h1>
     <div id="caracteristicas">
-        <div id="calidad">
-            <img src="data/calidad.png" alt="logo calidad de auriculares">
+        <div id="calidad" class="caracdiv">
+            <img src="data/calidad.png" alt="logo calidad de auriculares" class="imgcarac">
             <div>
                 <h3>
                     Auriculares de primera calidad
@@ -35,8 +36,8 @@
                 </p>
             </div>
         </div>
-        <div id="enviorapido">
-            <img src="data/envio.png" alt="logo envio">
+        <div id="enviorapido" class="caracdiv">
+            <img src="data/envio.png" alt="logo envio" class="imgcarac">
             <div>
                 <h3>
                     Envio rapido
@@ -46,8 +47,8 @@
                 </p>
             </div>
         </div>
-        <div id="garantia">
-            <img src="data/garantia.png" alt="logo garantia">
+        <div id="garantia" class="caracdiv">
+            <img src="data/garantia.png" alt="logo garantia" class="imgcarac">
             <div>
                 <h3>
                     Garantia
@@ -61,8 +62,62 @@
     </div>
     <div id="comofunciona">
         <h2>Como funcionan los auriculares?</h2>
-        <video src=""></video>
+        <iframe width="727" height="409" src="https://www.youtube.com/embed/bneb6BtXNdQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-
+    <div id="precios">
+        <div id="M5000" class="precio_auris">
+            <p class="modelo">M5000</p>
+            <img src="data/aurim5000.jpg" alt="Auriculares M5000" class="imgauris">
+            <p class="precio">$1739</p>
+            <ul>
+                <li>Diámetro del parlante: 50mm</li>
+                <li>Impedancia: 16Ohms+/-15%</li>
+                <li>Sensibilidad: 105±3dB</li>
+            </ul>
+        </div>
+        <div id="G733" class="precio_auris">
+            <p class="modelo">G733</p>
+            <img src="data/aurisg733.png" alt="Auriculares G733" class="imgauris">
+            <p class="precio">$19709</p>
+            <ul>
+                <li>Diámetro del parlante: 50mm</li>
+                <li>Impedancia: 16Ohms+/-15%</li>
+                <li>Sensibilidad: 105±3dB</li>
+            </ul>
+        </div>
+        <div id="A50" class="precio_auris">
+            <p class="modelo">A50</p>
+            <img src="data/aurisastroa50.png" alt="" class="imgauris">
+            <p class="precio">$39000</p>
+            <ul>
+                <li>Diámetro del parlante: 50mm</li>
+                <li>Impedancia: 16Ohms+/-15%</li>
+                <li>Sensibilidad: 105±3dB</li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h3>Contactanos</h3>
+        <form action="">
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre">
+            </div>
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </div>
 </body>
 </html>
